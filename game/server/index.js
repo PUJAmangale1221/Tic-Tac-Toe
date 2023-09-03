@@ -18,7 +18,7 @@ var jsonParser = bodyParser.json()
 // Using Node.js `require()`FOR mongoDB
 const mongoose = require('mongoose');
 // configure mongoDB
-const mongoDB = "mongodb://127.0.0.1:27017/MultiTicToe";
+const mongoDB = "mongodb+srv://pujamangale:root@tic-tac-toe.kw6xsrj.mongodb.net/";
 //connect local database 
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Database Connected...'))
